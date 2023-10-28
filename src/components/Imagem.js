@@ -1,4 +1,4 @@
-function Imagem({background, titulo, numero, minImg, alt}) {
+function Imagem({background, titulo, numero, urlImg, alt}) {
   return (
     <div className={`${background} w-60 h-60 rounded-2xl p-4 flex flex-col justify-around`}>
       <div className="flex text-white font-semibold justify-around w-full h-1/3">
@@ -10,7 +10,7 @@ function Imagem({background, titulo, numero, minImg, alt}) {
         </div>
       </div>
       <div className="h-2/3 flex items-center justify-center p-4">
-        <img className="h-full" src={minImg} alt={alt}/>
+        <img className="h-full" src={urlImg} alt={alt}/>
       </div>
     </div>
   );

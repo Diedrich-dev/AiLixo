@@ -4,10 +4,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col scrollbar scrollbar-thumb-red-700">
-      <Navbar />
+    <div className="flex flex-col bg-cover bg-no-repeat">
+      {/* <Navbar /> */}
+      {/* <div className="max-h-[80%] w-full flex justify-center items-center">
+        <img src={PaginaInicial} alt="teste">
+        </img>
+      </div> */}
       <Container />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

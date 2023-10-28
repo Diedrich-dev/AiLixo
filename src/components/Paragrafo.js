@@ -1,6 +1,6 @@
 function Paragrafo({msg}) {
   return (
-      <p className="text-[#19486A] text-base font-black">{msg}</p>
+      <p className="text-black text-base font-black">{msg}</p>
   );
 }
 
