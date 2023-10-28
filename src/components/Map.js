@@ -33,7 +33,7 @@ function Map() {
     <div className="h-full w-full">
       {isLoaded && (
         <GoogleMap
-          mapContainerStyle={{ width: "100%", height: "100%", borderRadius: "1rem", boxShadow: "0px 0px 20px 12px #d9d9d9" }}
+          mapContainerStyle={{ width: "100%", height: "100%", borderRadius: "1rem", border: "2px solid #0CD761"}}
           center={{
             lat: -24.96152041230841,
             lng: -53.50744425857699,

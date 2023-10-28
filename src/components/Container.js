@@ -6,7 +6,7 @@ import CardOds from "./CardOds";
 
 function Container() {
   return (
-    <div className="h-full m-8 flex flex-col gap-y-6">
+    <div className="h-full p-8 flex flex-col gap-y-6 bg-no-repeat bg-cover bg-fixed" style={{backgroundImage: 'url(https://i.imgur.com/wXsxreG.png)'}}>
       <main className="flex flex-col gap-y-6">
         <Titulo titulo="Objetivos de Desenvolvimento Sustentável" />
         <Paragrafo
