@@ -8,12 +8,8 @@ function Footer() {
         <img src="https://i.imgur.com/o2yxJH6.png" alt="Icon Ai Lixo" />
       </div>
       <div className="justify-center flex flex-col gap-y-2">
-        <div>
-          <Titulo titulo="Tecnologia em Análise e Desenvolvimento de Sistemas" />
-        </div>
-        <div>
-          <Titulo titulo="Extensão: Institucional" />
-        </div>
+        <Titulo titulo="Tecnologia em Análise e Desenvolvimento de Sistemas" />
+        <Titulo titulo="Extensão: Institucional" />
         <ul className="grid grid-cols-2 gap-x-8 gap-y-2 w-96 pl-4 max-md:gap-y-0">
           <ListItem item="Alessandra Buffon" />
           <ListItem item="Eliane Konrad" />
